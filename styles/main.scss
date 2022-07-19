@@ -1,12 +1,12 @@
 @import './constants/colors';
 @import './constants/typography';
+@import './constants/breakpoints';
 
 @import './base/fonts';
 @import './base/normalize';
 @import './base/reset';
 
 @import './mixins/text-style';
+@import './mixins/responsive';
 
 @import './layouts/grids';
-
-// mixin 미디어쿼리 박스사이징 등 자주 사용하는것 등록해서 귀찮음 방지하기
