@@ -1,11 +1,12 @@
 @import './constants/colors';
 @import './constants/typography';
-@import './layouts/grids';
+
 @import './base/fonts';
 @import './base/normalize';
 @import './base/reset';
-$hongsi: 1;
 
-p {
-  line-height: $hongsi;
-}
+@import './mixins/text-style';
+
+@import './layouts/grids';
+
+// mixin 미디어쿼리 박스사이징 등 자주 사용하는것 등록해서 귀찮음 방지하기
